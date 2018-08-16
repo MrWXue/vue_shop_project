@@ -3,6 +3,7 @@ html,body,#app {
   width: 100%;
   margin: 0;
   padding: 0;
+  min-width: 1024px;
 }
 i.iconfont {
   margin-right: 10px;
@@ -10,4 +11,16 @@ i.iconfont {
 .el-submenu__title,
 .el-menu-item {
   font-size: 13px;
+}
+/* 覆盖卡片默认的阴影效果 */
+.el-card {
+  margin-top: 20px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) !important;
+}
+.el-table {
+  margin-top: 15px;
+  font-size: 12px;
+}
+.el-pagination {
+  margin-top: 15px;
 }
